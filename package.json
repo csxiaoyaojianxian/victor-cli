@@ -1,0 +1,28 @@
+{
+  "name": "victor-cli",
+  "version": "1.0.0",
+  "description": "victor脚手架测试",
+  "main": "./bin/start.js",
+  "bin": {
+    "victor-cli": "./bin/start.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1",
+    "commander": "^9.1.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.0.1",
+    "inquirer": "^8.2.2",
+    "ora": "^6.1.0",
+    "util": "^0.12.4"
+  },
+  "dependencies": {
+    "log-symbols": "^5.1.0"
+  }
+}
